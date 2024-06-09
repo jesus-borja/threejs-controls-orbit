@@ -17,8 +17,6 @@ function init() {
     // sets the color and the growth rate of the fog
     scene.fog = new THREE.FogExp2(0xce1773, 0.002);
 
-    console.log(scene);
-
     // smooths the edges of drawn objects
     renderer = new THREE.WebGLRenderer({ antialias: true });
 
