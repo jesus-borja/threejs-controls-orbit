@@ -32,8 +32,7 @@ function init() {
     // adds the renderer as an HTML element to the body of the page
     document.body.appendChild(renderer.domElement);
 
-    // AAAAAAAAAAAAAAAAAAA
-    // FOV, Size, cercanía, lejanía
+    // field of view, screen size, how close you can see, how far you can see
     camera = new THREE.PerspectiveCamera(
         60,
         window.innerWidth / window.innerHeight,
